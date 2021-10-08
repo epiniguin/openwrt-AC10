@@ -97,4 +97,9 @@ config RTL8197_MACH_AC10UV2
 	help
 	  Say 'Y' here if you want your kernel to support the
 	  tenda ac10u v2 router.
+config RTL8197_MACH_W12
+	bool "Tenda W12"
+	help
+	  Say 'Y' here if you want your kernel to support the
+	  Tenda W12 access point.
 endmenu

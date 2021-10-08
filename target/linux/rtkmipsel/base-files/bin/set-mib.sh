@@ -29,8 +29,10 @@ iwpriv wlan1 set_mib ampdu=1
 iwpriv wlan1 set_mib coexist=1
 
 
-iwpriv wlan0 set_mib pwrdiff_40BW2S_20BW2S_A=$HW_WLAN0_TX_POWER_DIFF_5G_40BW2S_20BW2S_A
-iwpriv wlan0 set_mib pwrdiff_40BW2S_20BW2S_B=$HW_WLAN0_TX_POWER_DIFF_5G_40BW2S_20BW2S_B
+iwpriv wlan0 set_mib pwrdiff_80BW1S_160BW1S_A=$HW_WLAN0_TX_POWER_DIFF_5G_80BW1S_160BW1S_A
+iwpriv wlan0 set_mib pwrdiff_80BW1S_160BW1S_B=$HW_WLAN0_TX_POWER_DIFF_5G_80BW1S_160BW1S_B
+iwpriv wlan0 set_mib pwrdiff_80BW2S_160BW2S_A=$HW_WLAN0_TX_POWER_DIFF_5G_80BW2S_160BW2S_A
+iwpriv wlan0 set_mib pwrdiff_80BW2S_160BW2S_B=$HW_WLAN0_TX_POWER_DIFF_5G_80BW2S_160BW2S_B
 iwpriv wlan0 set_mib pwrdiff_20BW1S_OFDM1T_A=$HW_WLAN0_TX_POWER_DIFF_5G_20BW1S_OFDM1T_A
 iwpriv wlan0 set_mib pwrdiff_20BW1S_OFDM1T_B=$HW_WLAN0_TX_POWER_DIFF_5G_20BW1S_OFDM1T_B
 iwpriv wlan0 set_mib xcap=$HW_WLAN0_11N_XCAP

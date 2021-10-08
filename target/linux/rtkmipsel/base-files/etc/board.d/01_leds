@@ -21,6 +21,9 @@ ac10u)
 	ucidef_set_led_netdev "wifi1" "WIFI 2G" "$board:green:led1" "wlan1"
 	ucidef_set_led_netdev "wifi0" "WIFI 5G" "$board:green:led2" "wlan0"
 	;;
+w12)
+	ucidef_set_led_netdev "wifi" "WIFI" "$board:green:status" "wlan1"
+	;;
 esac
 
 board_config_flush

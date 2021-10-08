@@ -22,6 +22,9 @@ rtkmipsel_board_detect() {
 	*"AC10U"*)
 		name="ac10u"
 		;;
+	*"W12"*)
+		name="w12"
+		;;
 	esac
 
 	[ -z "$name" ] && name="unknown"
